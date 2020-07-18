@@ -1,0 +1,22 @@
+div {
+	float : left;
+	height: 30rem;
+}
+
+div.first
+{
+	width: 30%;
+	background-color: red;
+}
+
+div.second
+{
+	width: 30%;
+	background-color: blue;
+}
+
+div.third
+{
+	width: 30%;
+	background-color: green;
+}
