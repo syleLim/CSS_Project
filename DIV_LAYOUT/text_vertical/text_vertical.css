@@ -1,4 +1,11 @@
-div {
+div
+{
 	background-color: red;
 }
 
+h1
+{
+	height: 5rem;
+	text-align: center;
+	line-height: 5rem;
+}
