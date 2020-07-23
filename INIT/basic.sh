@@ -11,13 +11,14 @@ echo "<!DOCTYPE html>
 	</head>
 	<body>
 		<div>
-			<h1>$2</p>
+			<p>$2</p>
 		</div>
 	</body>
 </html>
 " >> ../$1/$2.html
 
-echo 'div {
+echo 'div
+{
 	background-color: red;
 }
 ' >> ../$1/$2.css
