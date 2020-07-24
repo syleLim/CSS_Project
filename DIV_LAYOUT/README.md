@@ -6,9 +6,11 @@ Div is block style, so they are batched vertically.<br>If you want to batch them
 
 Each float blocks are never overlay, we use this with width
  - [horizontal_float](https://github.com/syleLim/CSS_Project/tree/master/DIV_LAYOUT/horizontal_float)
- - [default_blog]()
+ - [default_blog](https://github.com/syleLim/CSS_Project/tree/master/DIV_LAYOUT/default_blog)
 
 
 ## display : flex
 
 If you want to align height of objects in div, use `display : flex`.<br>Flex is efficient when elements size are **ambiguous.**<br>If it isnt worked, use `inline-flex`. Inline-flex is for vertical align wrap div, but sometimes used when flex is not worked.
+ - [default_blog](https://github.com/syleLim/CSS_Project/tree/master/DIV_LAYOUT/default_blog)
+
