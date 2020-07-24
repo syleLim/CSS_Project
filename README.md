@@ -23,6 +23,6 @@ display components is one of show components each way.
 
  - **inline** : show component like inline style.(no line jump)<br><br>
 
- - **inline-block** : show inline style, but inside shown like box style.
+ - **inline-block** : show inline style, but inside shown like box style.<br><br>
 
  - **flex** : use items(in elements) for flexible. [ref](https://github.com/syleLim/CSS_Project/tree/master/DIV_LAYOUT#display--flex)
