@@ -16,4 +16,11 @@ position is deciding tags`s position
 
 
 ### 2. display 
-display components is one of
+display components is one of show components each way.
+ - **none** : not showing objects<br><br>
+
+ - **block** : show component like block style.(line jump)<br><br>
+
+ - **inline** : show component like inline style.(no line jump)<br><br>
+
+ - **inline-block** : show inline style, but inside shown like box style.
