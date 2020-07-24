@@ -1,0 +1,52 @@
+body
+{
+	margin: 0;
+}
+
+div.header
+{
+	float: left;
+	background-color: #555555;
+	width : 100%;
+	margin-bottom: 1rem;;	
+}
+
+div.content
+{
+	display: inline-flex;
+	width : 100%;
+}
+
+div.nav
+{
+	float:left;
+	background-color: #aaaaaa;
+	width: 10rem;
+	min-height : 10rem;
+	margin-right:1rem;
+}
+
+div.section
+{
+	float :left;
+	background-color: #777777;
+
+	width: calc(100% - 11rem - 11rem);
+}
+
+div.aside
+{
+	float:left;
+	background-color: #bbbbbb;
+	width: 10rem;
+	margin-left: 1rem;
+}
+
+div.footer
+{
+	float:left;
+	background-color: #444444;
+	width :100%;
+	margin-top:1rem;
+}
+
