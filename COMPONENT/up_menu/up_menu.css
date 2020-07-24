@@ -1,0 +1,64 @@
+body
+{
+	margin :0;
+	min-height: 100rem;
+}
+
+div
+{
+	background-color: white;
+}
+
+p
+{
+	margin : 0;
+	font-size: 1rem;
+}
+
+div.upMenu
+{
+	position :fixed;
+	top : 0;
+	left : 0;
+	float : left;
+	width : 100%;
+	box-shadow: 0px 10px 10px black;
+}
+
+div.upMenu ul
+{
+	padding: 0;
+	float : left;
+	list-style: none;
+}
+
+div.upMenu ul li
+{
+	position: relative;
+	float : left;
+	margin-left : 1rem;
+}
+
+div.upMenu ul li ul
+{
+	position: absolute;
+	background-color: white;
+	padding: 0;
+	left:0;
+	display: none;
+	list-style: none;
+	width : 3rem;
+	margin: 1rem 0 0 0;
+	border: 0.1rem solid black;
+}
+
+div.upMenu ul li ul li
+{
+	float :none;
+	margin : 0.5rem;
+}
+
+div.upMenu ul li:hover > ul
+{
+	display: block;
+}

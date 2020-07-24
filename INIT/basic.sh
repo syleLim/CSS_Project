@@ -17,9 +17,14 @@ echo "<!DOCTYPE html>
 </html>
 " >> ../$1/$2.html
 
-echo 'div
+echo 'body
 {
-	background-color: red;
+	margin : 0;	
+}
+
+div
+{
+	background-color: white;
 }
 ' >> ../$1/$2.css
 
