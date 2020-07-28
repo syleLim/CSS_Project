@@ -16,7 +16,7 @@ position is deciding tags`s position
 
 
 ### 2. display 
-display components is one of show components each way.
+Display components is one of show components each way.
  - **none** : not showing objects<br><br>
 
  - **block** : show component like block style.(line jump)<br><br>
@@ -26,3 +26,15 @@ display components is one of show components each way.
  - **inline-block** : show inline style, but inside shown like box style.<br><br>
 
  - **flex** : use items(in elements) for flexible. [ref](https://github.com/syleLim/CSS_Project/tree/master/DIV_LAYOUT#display--flex)
+
+
+### 3. media query
+Media query is important part in active view.<br>
+It is top-level component, but use inside.
+
+```css
+@media ~ {
+
+}
+```
+
