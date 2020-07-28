@@ -1,0 +1,63 @@
+body
+{
+	margin : 1rem;	
+}
+
+#carousel
+{
+	position: relative;
+	padding: 1rem;
+	width : 54.5rem;
+	height: 30rem;
+	background-color: black;
+}
+
+#btnLeft
+{
+	background-color: white;
+	display :inline-block;
+	position: relative;
+	border-radius: 1rem;
+	top : 11rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+#btnRight
+{
+	background-color: white;
+	display :inline-block;
+	position: relative;
+	border-radius: 1rem;
+	top: 11rem;
+	left : 50rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+.img
+{
+	width: 15rem;
+	height: 24rem;
+}
+
+#first
+{
+	position: absolute;
+	left: 3.5rem;
+	background-color: red;
+}
+
+#second
+{
+	position: absolute;
+	left: 20.5rem;
+	background-color: green;
+}
+
+#third
+{
+	position: absolute;
+	left: 37.5rem;
+	background-color: yellow;
+}
