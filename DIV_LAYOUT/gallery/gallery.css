@@ -1,0 +1,66 @@
+body
+{
+	margin : 0.1rem;
+}
+
+@media screen and (min-width: 400px) {
+	div.gallery {
+		width : 30rem;
+		column-count: 2;
+	}
+}
+@media screen and (min-width: 600px) {
+	div.gallery {
+		width : 42rem;
+		column-count: 3;
+	}
+}
+@media screen and (min-width: 800px) {
+	div.gallery {
+		width : 60rem;
+		column-count: 4;
+	}
+}
+@media screen and (min-width: 1100px) {
+	div.gallery {
+		width : 72rem;
+		column-count: 5;
+	}
+}
+
+div.gallery
+{
+	column-width: 13rem;
+	column-gap: 0.1rem;
+}
+
+
+div.item
+{
+	display: inline-block;
+	background-color: black;
+	margin : 0.5rem;
+}
+
+div.imgSmall
+{
+	width :12rem;
+	height :6rem;
+	position: relative;
+	top: 0;
+	background-color: yellow;
+}
+
+div.imgMedium
+{
+	width : 12rem;
+	height : 10rem;
+	background-color: red;
+}
+
+div.imgLarge
+{
+	width : 12rem;
+	height : 14rem;
+	background-color: green;
+}
