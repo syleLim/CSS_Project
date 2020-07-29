@@ -1,0 +1,73 @@
+body
+{
+	text-align: center;
+	background-color: rgb(50, 81, 223);
+	margin : 2rem;	
+}
+
+#loginBox
+{
+	display: inline-block;
+	background-color: white;
+	border-radius: 0.5rem;
+	text-align: center;
+
+	padding: 1rem;
+	width: 25rem;
+}
+
+#loginBox p
+{
+	color: gray;
+}
+
+.inputId
+{
+	display: block;
+	margin-bottom: 1rem;
+	background-color: #bbbbbb;
+	border: none;
+	border-radius: 0.5rem;
+
+	width : calc(100% - 0.5rem);
+	height: 2rem;
+}
+
+.inputPw
+{
+	display: block;
+	margin-bottom: 1rem;
+	background-color: #bbbbbb;
+	border: none;
+	border-radius: 0.5rem;
+
+	width : calc(100% - 0.5rem);
+	height: 2rem;
+	
+}
+
+input.checkBox
+{
+	display: inline-block;
+	margin-right : 1rem;
+}
+
+p.checkBox
+{
+	display: inline;
+}
+
+.submit
+{
+	display: block;
+	background-color: rgb(50, 81, 223);
+	border: none;
+	border-radius: 0.2rem;
+	margin-top : 1rem;
+
+	font-size: 1.5rem;
+	color : white;
+
+	width : calc(100% - 0.5rem);
+	height : 2.5rem;
+}
