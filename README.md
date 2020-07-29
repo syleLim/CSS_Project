@@ -38,3 +38,11 @@ It is top-level component, but use inside.
 }
 ```
 
+### 4. form
+Form is component for sending data from view to db or somewhere.<br>Basic code is below.
+```html
+<form>
+	<input types="type" value="text">
+	<input types="submit" value="text">
+</form>
+```
