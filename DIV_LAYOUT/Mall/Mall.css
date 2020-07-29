@@ -1,0 +1,107 @@
+body
+{
+	margin : 0;	
+}
+
+.menu
+{
+	background-color: white;
+	border-bottom: 0.1rem solid black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center;
+	width : 100%;
+}
+
+#logo
+{
+	margin : 1rem auto;
+	background-color: black;
+	width : 2rem;
+	height : 2rem;
+	border-radius: 1rem;
+}
+
+.nav
+{
+	padding: 0;
+	background-color: white;
+}
+
+.nav ul
+{
+	white-space: nowrap;
+	padding:0;
+	list-style: none;
+}
+
+.nav ul li
+{
+	margin : 3rem;
+	display: inline;
+	position: relative;
+}
+
+.nav ul li p
+{
+	display: inline;
+}
+
+.nav ul li ul
+{
+	display: none;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	list-style: none;
+	border: 0.1rem solid black;
+	text-align: left;
+	margin:0 0.2rem;
+	padding: 0;
+}
+
+.nav ul li ul li p
+{
+	display: block;
+	margin-left: 0.2rem;
+}
+
+.nav ul li:hover > ul
+{
+	display: block;
+}
+
+
+.header
+{
+	text-align: center;
+	float :left;
+	position: relative;
+	z-index: 0;
+
+	width : 100%;
+}
+
+#main
+{
+	position: absolute;
+	top: 15rem;
+	margin:auto;
+}
+
+#title
+{
+	white-space: nowrap;
+	margin: 15rem 0;
+	
+}
+
+.section
+{
+	float :left;
+	width : calc(100% - 0.2rem);
+	height : 50rem;
+	border: 0.1rem solid black;
+}
