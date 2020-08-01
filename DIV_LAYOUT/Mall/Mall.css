@@ -76,25 +76,26 @@ body
 
 .header
 {
+	background-color: rgb(116, 144, 197);
 	text-align: center;
 	float :left;
 	position: relative;
 	z-index: 0;
-
 	width : 100%;
-}
-
-#main
-{
-	position: absolute;
-	top: 15rem;
-	margin:auto;
 }
 
 #title
 {
+	background-color: rgba(255, 255, 255, 0.5);
 	white-space: nowrap;
-	margin: 15rem 0;
+	border: 1rem black double;
+	position : relative;
+	top : calc(50% - 16rem);
+	left : calc(50% - 16rem);
+	margin : 15rem 0 10rem 0;
+	width : 30rem;
+	height : 15rem;
+	padding-top : 3rem;
 	
 }
 
@@ -103,5 +104,30 @@ body
 	float :left;
 	width : calc(100% - 0.2rem);
 	height : 50rem;
-	border: 0.1rem solid black;
+}
+
+#sectionPadding
+{
+	width : 100%;
+	height : 3rem;
+}
+
+#sectionInfo
+{
+	border-top: 0.1rem black solid;
+	border-bottom: 0.1rem black solid;
+	height : calc(100% - 3.2rem);
+}
+
+#InfoTitle
+{
+	text-align: center;
+	margin : 5rem 0;
+}
+
+.col
+{
+	margin : 0rem 7rem;
+	column-count : 2;
+	column-rule: 0.1rem solid black;
 }
