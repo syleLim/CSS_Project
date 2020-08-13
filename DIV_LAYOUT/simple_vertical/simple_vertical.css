@@ -1,0 +1,54 @@
+body
+{
+	margin : 0;	
+}
+
+h1
+{
+	margin : 0;
+	padding : 0;
+	line-height : 15rem;
+}
+
+h3
+{
+	margin : 0;
+	padding: 0;
+}
+
+.Header
+{
+	background-color: #555555;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 1;
+
+	width: 100%;
+	height: 15rem;
+
+	text-align: center;
+}
+
+.Section
+{
+	background-color: #444444;
+	
+}
+
+.Section #About
+{
+	background-color: #888888;
+	
+}
+
+.Section #Project
+{
+
+}
+
+.Section #info
+{
+
+}
+

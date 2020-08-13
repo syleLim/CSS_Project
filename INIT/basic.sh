@@ -28,4 +28,6 @@ div
 }
 ' >> ../$1/$2.css
 
+touch ../$1/README.md
+
 cd ../$1
